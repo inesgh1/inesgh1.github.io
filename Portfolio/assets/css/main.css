@@ -23,6 +23,29 @@ section, summary, time, mark, audio, video {
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
+ul.features {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.skill {
+    padding-left: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+ul.skill li {
+    margin-bottom: 5px; /* Adjust this to change space between lines */
+}
+
+li {
+    line-height: 1.5em; /* This increases line spacing slightly */
+}
+
+h3.featureh3 {
+    margin-bottom: 10px; /* Adjust this to reduce space under the headers */
+}
+
 
 body {
 	line-height: 1;
